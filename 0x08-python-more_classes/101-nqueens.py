@@ -5,7 +5,8 @@ This module contains an algorithm that resolves the N-Queen puzzle
 using backtracking
 
 """
-
+class nqueens:
+    """Class that defines Nqueens"""
 
 def isSafe(m_queen, nqueen):
     """ Method that determines if the queens can or can't kill each other
