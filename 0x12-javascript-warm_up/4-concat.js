@@ -1,5 +1,5 @@
 #!/usr/bin/node
-const process = require('process');
-const arg2 = process.argv[2];
-const arg3 = process.argv[3];
-console.log(`${arg2} is ${arg3}`);
+
+const entry = process.argv;
+
+console.log(entry[2], 'is', entry[3]);

@@ -1,5 +1,7 @@
 #!/usr/bin/node
-const strings = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-strings.forEach(string => {
-  console.log(string);
-});
+
+const myLanguages = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+let lang;
+for (lang in myLanguages) {
+  console.log(myLanguages[lang]);
+}
