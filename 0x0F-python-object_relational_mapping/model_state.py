@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-"""Defines a class State"""
 
 
 from sqlalchemy import Column, Integer, String
@@ -9,7 +8,8 @@ Base = declarative_base()
 
 
 class State(Base):
-    """ Class that defines properties of State"""
+    def __init(self):
+        pass
     __tablename__ = 'states'
-    id = Column(Integer, primary_key=True)
+    id = Column(Integer, nullable=False, primary_key=True)
     name = Column(String(128), nullable=False)
